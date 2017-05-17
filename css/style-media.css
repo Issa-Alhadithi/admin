@@ -1,0 +1,60 @@
+@media (max-width: 991px){
+    .custom .navbar ul li:hover .markbook{
+        display: inline-block
+    }
+    
+    .custom .navbar ul li a i{
+        position: relative
+    }
+    
+    .show-contant{
+        width: 80%;
+        margin-right: 5%;
+    }
+    
+    .show-contant .posts{
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width:981px) AND (min-width: 784px){
+    
+    .show-contant{
+        margin-right: 2%
+    }
+    
+}
+
+@media(max-width:782px) AND (min-width: 275px){
+    .custom .navbar ul li a span{
+        position: absolute;
+        left: 18px;
+         display: none
+    }
+    
+    .custom .navbar ul li:hover .markbook{
+        display: inline-block; 
+    }
+    
+        .custom .navbar{
+        top: 50px
+    }
+}
+
+@media(max-width:767px) And (min-width:540px){
+    .show-contant {
+        width: 80%
+    }
+        
+    .marg{
+        margin-bottom: 10px
+    }
+    
+}
+
+@media(max-width:400px) And (min-width:299px){
+
+    .show-contant {
+        margin-right: 0
+    }
+}

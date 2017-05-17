@@ -1,0 +1,238 @@
+/*********************************************************************************************
+************************************ Neme Template : Admin usiq ***********************************          
+********************************* create by : Issa Alhadithi *********************************
+************************************** Date : 2016/8/5 ***************************************
+****************************** web site : www.pro-iq.3xhost.com ******************************
+********************************** cyperight : Company proiq *********************************/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.markbook{
+    position: absolute;
+    top: 28%;
+    left: 137%;
+    background-color: #111;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 6px;
+    color: #fff;
+    
+}
+
+.markbook:after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-width: 17px 17px 17px 17px;
+    x: 20px;
+    border-style: solid;
+    left: -34px;
+    top: -1px;
+    bottom: 0;
+    /* right: 74px; */
+    border-color: transparent #111 transparent transparent;
+}
+
+.logo{
+    background-color: #194385;
+    position: fixed;
+     width: 100%;
+    z-index: 9999;
+}
+
+.logo h2,.logo h4{
+    font-weight: bold;
+    color:darkorange;
+    margin: auto;
+    padding: 14px 79px;
+}
+
+.logo h4{
+    font-size: 21px
+}
+
+.custom .navbar{
+    background-color: #021F4E;
+    position: fixed;
+    border-radius:0;
+    height: 610px;
+    float: left;
+    top: 60px;
+}
+
+.custom .navbar ul{
+    margin: 0 -14px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.custom .navbar ul li{
+    position: relative;
+    margin: 0;
+    border-bottom: 1px ridge rgba(6, 26, 68, 0.96);
+    padding: 0;
+    padding: 0;
+}
+.custom .navbar ul li a{
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    padding: 13px 20px;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 2;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-left: 4px solid #021F4E;
+    text-decoration: none;
+    font-size: 15px;
+    transition: All .5s ease-in-out;
+    -webkit-transition: All .5s ease-in-out;
+    -moz-transition: All .5s ease-in-out;
+    -o-transition: All .5s ease-in-out;
+}
+.custom .navbar ul li a i{
+    position: absolute
+}
+
+.custom .navbar ul li a span{
+    position: relative;
+    left: 23px;
+}
+
+.custom .navbar ul li a:hover{
+    background-color: #0b3477;
+    border-left: 4px solid #146eff;
+}
+/*end navbar */
+
+.show-contant{
+    float: right;
+    overflow: hidden;
+    padding-top: 70px;
+}
+
+.show-contant .posts{
+    margin-bottom: 20px
+}
+
+.show-contant .posts .post{
+    background-color: #021f4e;
+    margin-bottom: 10px
+}
+
+.show-contant .posts .post span{
+    background-color: #fff;
+    padding: 5px;
+    position: relative;
+    top: 6px;
+}
+
+.show-contant .posts .post .img{
+    width: 70%;
+    height: 27%;
+    margin-left: 14%;
+    margin-top: -15px;
+}
+
+.show-contant .posts .post h3{
+    padding-left: 10%;
+    color: #fff
+}
+
+.show-contant .posts .post p{
+    padding: 0 10px;
+    color: #37e4d3
+}
+
+.show-contant .posts .post .like-unlike{
+    text-align: right;
+    padding:10px;
+}
+
+.show-contant .posts .post .like-unlike span{
+    background: none;
+    color: #fff;
+    
+}
+
+.show-contant .posts .post .like-unlike span i{
+    font-size: 18px
+}
+
+
+.panel-heading{
+    background-color: #021f4e;
+    color: #fff;
+    margin-top: 30px
+}
+
+.panel-heading .Toggle-info:hover{
+    cursor: pointer;
+    color: #888
+}
+
+.panel-body{
+    background-color: #d9d8d8;
+    display: none;
+}
+
+.panel-body .member-u,
+.panel-body .member-u{
+    float: left
+}
+
+.panel-body .member-u{
+    font-size: 17px;
+    font-weight:bold;
+    color: #817272;
+    position: relative;
+    
+}
+
+.panel-body .member-c{
+    position: relative;
+    left: 15px;
+    background-color: #eee;
+    width: 79%;
+    float: left;
+    padding: 5px;
+    top: -4px
+}
+
+.panel-body li{
+    padding: 10px;
+}
+
+.panel-body li:nth-child(odd){
+    background-color: #eee
+}
+
+.panel-body li .btn-success,
+.panel-body li .btn-danger{
+    padding: 3px 8px;
+    position: relative;
+    top: -3px;
+    margin-right: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
